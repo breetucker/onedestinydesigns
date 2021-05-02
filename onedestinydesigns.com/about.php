@@ -27,10 +27,12 @@
     <div id="aboutContainer" class="animate__animated animate__fadeInRight animate__slow">
       <h2 id="aboutUsText">We specialize in custom tumblers to fit any occasion.
       </h2>
-      <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti quo atque officiis ea aliquid consequatur, sequi sint? Quod Sit, quisquam iusto qui minima distinctio hic cupiditate?
-      Praesentium veniam ratione eius ipsam commodi facere voluptatem tempore maxime. Impedit distinctio laudantium repudiandae nemo consectetur et accusantium aperiam facere sequi pariatur iusto, ratione sapiente ipsam libero ipsum nesciunt 
-       
-      <strong>Praesentium veniam ratione eius ipsam commodi facere voluptatem tempore maxime. Impedit distinctio laudantium repudiandae nemo consectetur et accusantium aperiam facere sequi pariatur iusto, ratione sapiente ipsamlibero ipsum nesciunt</p>
+      <p>One Destiny Designs was created by a mother & daughter team in 2019.  We started out making vinyl projects and tumblers in our free time as a way spend time together, and we enjoy it so much that we decided to create our small business together. We create custom tumblers, t-shirts, keychains, etc. Thank you so much for supporting our small business! 
+      If you have a personalized item you would like made, please email us or message us on our Facebook.
+      <br />
+      <strong>
+      Tumbler Care Instructions: Hand Wash Only, Not Microwave or Dishwasher Safe.​</strong>
+     </p>
     </div>
   <?php
   include "includes/footer.php"
