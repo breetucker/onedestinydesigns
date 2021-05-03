@@ -48,7 +48,7 @@ body {
 
 /* includes */
 header {
-  background-color: var(--borders);
+  /* background-color: var(--borders); */
   padding-top: 8px;
   display: flex;
   height: 65px;
@@ -57,6 +57,14 @@ header {
   top: 0;
   width: 100%;
   z-index: 9999;
+  background: rgba(189,168,170,1);
+  background: -moz-linear-gradient(top, rgba(189,168,170,1) 0%, rgba(204,183,185,1) 27%, rgba(214,195,197,1) 52%, rgba(230,219,220,1) 82%, rgba(230,219,220,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(189,168,170,1)), color-stop(27%, rgba(204,183,185,1)), color-stop(52%, rgba(214,195,197,1)), color-stop(82%, rgba(230,219,220,1)), color-stop(100%, rgba(230,219,220,1)));
+  background: -webkit-linear-gradient(top, rgba(189,168,170,1) 0%, rgba(204,183,185,1) 27%, rgba(214,195,197,1) 52%, rgba(230,219,220,1) 82%, rgba(230,219,220,1) 100%);
+  background: -o-linear-gradient(top, rgba(189,168,170,1) 0%, rgba(204,183,185,1) 27%, rgba(214,195,197,1) 52%, rgba(230,219,220,1) 82%, rgba(230,219,220,1) 100%);
+  background: -ms-linear-gradient(top, rgba(189,168,170,1) 0%, rgba(204,183,185,1) 27%, rgba(214,195,197,1) 52%, rgba(230,219,220,1) 82%, rgba(230,219,220,1) 100%);
+  background: linear-gradient(to bottom, rgba(189,168,170,1) 0%, rgba(204,183,185,1) 27%, rgba(214,195,197,1) 52%, rgba(230,219,220,1) 82%, rgba(230,219,220,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bda8aa', endColorstr='#e6dbdc', GradientType=0 );
 }
 #oddLogo img {
 width: 110px;
@@ -84,12 +92,20 @@ header ul, li {
   padding-right: 5px;
 }
 footer {
-  background-color: var(--borders);
+  /* background-color: var(--borders); */
   height: 120px;
   left: 0;
   bottom: 0;
   position: fixed;
   width: 100%;
+  background: rgba(230,219,220,1);
+  background: -moz-linear-gradient(top, rgba(230,219,220,1) 0%, rgba(230,219,220,1) 6%, rgba(214,195,197,1) 26%, rgba(204,183,185,1) 58%, rgba(189,168,170,1) 93%, rgba(189,168,170,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(230,219,220,1)), color-stop(6%, rgba(230,219,220,1)), color-stop(26%, rgba(214,195,197,1)), color-stop(58%, rgba(204,183,185,1)), color-stop(93%, rgba(189,168,170,1)), color-stop(100%, rgba(189,168,170,1)));
+  background: -webkit-linear-gradient(top, rgba(230,219,220,1) 0%, rgba(230,219,220,1) 6%, rgba(214,195,197,1) 26%, rgba(204,183,185,1) 58%, rgba(189,168,170,1) 93%, rgba(189,168,170,1) 100%);
+  background: -o-linear-gradient(top, rgba(230,219,220,1) 0%, rgba(230,219,220,1) 6%, rgba(214,195,197,1) 26%, rgba(204,183,185,1) 58%, rgba(189,168,170,1) 93%, rgba(189,168,170,1) 100%);
+  background: -ms-linear-gradient(top, rgba(230,219,220,1) 0%, rgba(230,219,220,1) 6%, rgba(214,195,197,1) 26%, rgba(204,183,185,1) 58%, rgba(189,168,170,1) 93%, rgba(189,168,170,1) 100%);
+  background: linear-gradient(to bottom, rgba(230,219,220,1) 0%, rgba(230,219,220,1) 6%, rgba(214,195,197,1) 26%, rgba(204,183,185,1) 58%, rgba(189,168,170,1) 93%, rgba(189,168,170,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6dbdc', endColorstr='#bda8aa', GradientType=0 );
 }
 footer p, a{
   text-decoration: none;
@@ -100,11 +116,11 @@ footer p, a{
   font-size: 8px;
   text-align: center;
   margin: 0 auto;
-  margin-top: 40px; 
+  margin-top: 20px; 
 }
 #footerInnerWrapper {
  padding: 5px;
- padding-top: 10px;
+ padding-top: 30px;
  justify-content: space-evenly;
  font-size: 10px;
 }
@@ -502,5 +518,5 @@ textarea {
   #contactWrapper form {
   text-align: center;
   width: 390px;
-}
+  }
 }
